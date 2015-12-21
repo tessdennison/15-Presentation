@@ -1,0 +1,834 @@
+
+#bg {
+
+    background-image: url(Homepage.jpeg);
+
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    width: 100%;
+}
+
+#bg img{
+width: 100%;
+position: fixed;
+}
+
+#bgcontact {
+
+    background-image: url(Homepage.jpeg);
+
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    width: 100%;
+}
+
+#bgcontact img{
+width: 100%;
+position: fixed;
+opacity: .85;
+}
+
+#missionpic {
+
+    background-image: url(Homepage.jpeg);
+
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    width: 100%;
+}
+#missionpic img{
+width: 100%;
+position: fixed;
+opacity: .65;
+}
+
+#bgfounder {
+
+    background-image: url(Homepage.jpeg);
+    background-repeat: no-repeat;
+    position:fixed;
+    background-size:100%;
+    top:0;
+    right:0;
+    z-index: -1;
+    width: 100%;
+}
+
+#bgfounder img{
+width: 100%;
+position: fixed;
+bottom: -130px;
+opacity: .9;
+}
+
+
+
+
+
+nav {
+    width: 100%;
+    position: relative;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: right;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: black;
+    }
+
+nav ul li a {
+    color: black;
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: white;
+        font-family: Helvetica;
+        text-decoration: none;
+    }
+
+
+
+#number img {
+	position: fixed;
+   left: 450px;
+    top: 150px;
+	
+
+}
+
+
+#logo  {
+    position: fixed;
+    bottom: 225px;
+    left: -10px;
+    
+}
+
+
+
+    /*Donate Button*/
+     
+     nav.donate {
+    	margin-right: 10px;
+        color: white;
+        font-family: Helvetica white;
+    }
+    
+    nav ul li.donate {
+    background-color: black;
+    opacity: .4;
+}
+
+    nav ul li a.donate {
+        font-size: 1em;
+        color: white;
+}
+    
+   
+     nav.donate:hover {
+    	background-color: black;
+    }
+
+
+/* Submenu */
+nav ul li.parent ul.child {
+    display: none; 
+    }
+nav ul li.parent:hover ul.child {
+    display: block; 
+    position: relative;
+    top: 60px;
+    background: gray;
+}
+
+nav ul li.parent ul.child li {
+    width: 5em;
+    padding: 0;
+    
+}
+nav ul li.parent ul.child li:hover {
+    background: gray;
+}
+nav ul li.parent ul.child li a {
+  display: block;
+
+}
+
+
+/*styling 'Of' for homepage */
+.of {
+	font-family: Times;
+	font-size: 25px;
+	position: fixed; 
+	left: 620px;
+	top: 200px;
+}
+.stat {
+	font-family: Times;
+	font-size: 25px;
+	position: fixed; 
+    white-space: nowrap;
+	left: 300px;
+	top: 250px;
+    text-align: center;
+
+	
+}
+
+.action {
+	background: black;
+	opacity: .6;
+	width: 9em;
+	height: 3em;
+	position: relative; 
+	left: 480px;
+	top: 350px;
+	text-align: center;
+
+
+	
+}
+.action a{
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 20px;
+padding:15px;
+position: relative;
+top:10px;
+}
+
+.action:hover {
+background-color: black;
+opacity: .8;
+}
+
+
+
+.column div {
+    position: fixed;
+    top: 200px;
+    float: left;
+    left: 160px;
+    
+    padding: 0;
+}
+
+.column2 div {
+    float: left;
+    left: 410px;
+}
+.column3 div {
+
+    float: left;
+    left: 670px;
+}
+
+
+.column2 figure:hover img {
+    opacity: .7;
+}
+.column figure:hover img {
+    opacity: .7;
+}
+
+
+.bottomcolumn {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.bottomcolumn:last-child {
+    padding-bottom: 60px;
+}
+
+.bottomcolumn div {
+    position: fixed;
+    top: 400px;
+    left: 170px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.bottomcolumn div:first-child {
+    margin-left: 10;
+}
+
+
+
+.bottomcolumn2 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.bottomcolumn2:last-child {
+    padding-bottom: 60px;
+}
+
+.bottomcolumn2 div {
+    position: fixed;
+    top: 400px;
+    left: 450px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.bottomcolumn2 div:first-child {
+    margin-left: 10;
+}
+
+.bottomcolumn2 figure:hover img {
+    opacity: 1;
+}
+.bottomcolumn figure:hover img {
+    opacity: 1;
+}
+
+
+figure {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+
+div.donation {
+    display: block;
+    position: fixed;
+    float: left;
+    top: 150px;
+    left: 350px;
+    background: rgba(0,0,0,.5);
+    padding: 20px 45px 20px 45px;
+    
+}
+
+
+form {
+    font-family: Helvetica;
+    color: white;
+
+}
+h1 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
+h3 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 1em;
+}
+input {
+    background-color: black;
+    opacity: .7;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    font-style: Helvetica white;
+}
+
+
+
+.dollar {
+    font-size: 1em;
+    color: white;
+    padding-left: 10px;
+}
+
+.name {
+    font-size: 1em;
+    color: white;
+    padding-left: 10px;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
+
+
+
+
+div.contactform {
+    display: block;
+    position: fixed;
+    float: left;
+    top: 100px;
+    left: 350px;
+    background: rgba(0,0,0,.5);
+    padding: 20px 45px 20px 45px;
+    
+}
+
+
+form {
+    font-family: Helvetica;
+    color: white;
+
+}
+h1 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
+h3 {
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 1em;
+}
+input {
+    background-color: black;
+    opacity: .7;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    font-style: Helvetica white normal;
+}
+
+
+
+.dollar {
+    font-size: 1em;
+    color: white;
+    padding-left: 10px;
+}
+
+.name {
+    font-size: 1em;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+.message {
+    font-size: 1em;
+    color: white;
+    height: 10em;
+    width: 25em;
+}
+.submit {
+    font-size: 1.2em;
+    color: white;
+}
+
+input.submit {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+div.thankyou {
+display: block;
+    position: fixed;
+    float: left;
+    top: 300px;
+    left: 240px;
+    background: rgba(0,0,0,.5);
+    padding: 20px 45px 20px 45px;
+    text-align: center;
+    height:200px;
+    width: 500px;
+}
+
+
+.founderpic {
+position: fixed;
+float: left;
+top: -30px;
+left: 100px;
+}
+
+.kathytext {
+    position: fixed;
+    float: left;
+    top: 50px;
+    left: 570px;
+    height: 200px;
+    width: 400px;
+    font-family: Helvetica;
+    color: white;
+    font-size: 1em;
+}
+
+h2 {
+    font-family: Helvetica;
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.fb {
+    position: fixed;
+    float: left;
+    top: 110px;
+    left: 550px;
+    
+}
+
+.twitter {
+    position: fixed;
+    float: left;
+    top: 115px;
+    left: 615px;
+    
+}
+
+.email{
+    position: fixed;
+    float: left;
+    top: 120px;
+    left: 685px;
+    
+}
+
+.fb:hover{
+opacity: .8;
+}
+
+.twitter:hover{
+opacity: .8;
+}
+
+.email:hover{
+opacity: .8;
+}
+
+
+
+.founderpic2 {
+position: fixed;
+float: left;
+top: 400px;
+left: 300px;
+}
+
+.founderpic2 img {
+    width: 250px;
+height: auto;
+}
+
+.bethtext {
+    position: fixed;
+    float: left;
+    top: 350px;
+    left: 570px;
+    height: 200px;
+    width: 400px;
+    font-family: Helvetica;
+    color: white;
+    font-size: 1em;
+}
+
+h2 {
+    font-family: Helvetica;
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.fb2 {
+    position: fixed;
+    float: left;
+    top: 405px;
+    left: 550px;
+    
+}
+
+.twitter2 {
+    position: fixed;
+    float: left;
+    top: 410px;
+     left: 616px;
+    
+}
+
+.email2{
+    position: fixed;
+    float: left;
+    top: 416px;
+     left: 685px;
+    
+}
+
+.fb2:hover{
+opacity: .8;
+}
+
+.twitter2:hover{
+opacity: .8;
+}
+
+.email2:hover{
+opacity: .8;
+}
+
+.seed img {
+    width: 80px;
+    height: auto;
+}
+
+.seed {
+    position: fixed;
+    float: left;
+    top: 200px;
+    left: 100px;
+}
+
+.seedtext {
+    position: fixed;
+    float: left;
+    top: 280px;
+    left: 200px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 1em;
+    width: 400px;
+}
+
+.shovel {
+ position: fixed;
+    float: left;
+    top: 400px;
+    left: 130px;   
+}
+.shoveltext {
+     position: fixed;
+    float: left;
+    top: 400px;
+    left: 200px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 1em;
+    width: 400px;
+}
+.shovel img {
+    width: 40px;
+    height: auto;
+}
+
+.location {
+    position: fixed;
+    float: left;
+    top: 220px;
+    left: 630px; 
+}
+
+.location img {
+    width: 70px;
+    height: auto;
+}
+
+.locationtext {
+    position: fixed;
+    float: left;
+    top: 260px;
+    left: 700px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 1em;
+    width: 400px;
+}
+
+.water {
+     position: fixed;
+    float: left;
+    top: 400px;
+    left: 630px; 
+}
+
+.water img {
+    width: 70px;
+    height: auto;
+}
+
+.watertext {
+    position: fixed;
+    float: left;
+    top: 400px;
+    left: 700px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 1em;
+    width: 400px;
+}
+
+
+
+
+
+.buzz1 div {
+    position: fixed;
+    top: 200px;
+    float: left;
+    left: 210px;
+    padding: 0;
+}
+
+.buzz1 img {
+    width: 200px;
+}
+
+.buzz2 div {
+    float: left;
+    left: 460px;
+}
+.buzz3 div {
+
+    float: left;
+    left: 700px;
+}
+
+
+.buzz2 figure:hover img {
+    opacity: .7;
+}
+.buzz1 figure:hover img {
+    opacity: .7;
+}
+
+
+
+.buzz4 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.buzz4:last-child {
+    padding-bottom: 60px;
+}
+
+.buzz4 div {
+    position: fixed;
+    top: 400px;
+    left: 230px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.buzz4 div:first-child {
+    margin-left: 10;
+}
+
+
+
+.buzz5 {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.buzz5:last-child {
+    padding-bottom: 60px;
+}
+
+.buzz5 div {
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+.buzz5 div:first-child {
+    margin-left: 10;
+}
+
+.buzz5 figure:hover img {
+    opacity: .8;
+}
+.buzz4 figure:hover img {
+    opacity: .8;
+}
+
+
+figure {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+}
+
+
+.why {
+    position: fixed;
+    float: left;
+    top: 190px;
+    left:350px;
+    font-family: serif;
+    font-size: 3em;
+    color: black;
+}
+
+.mission {
+    position: fixed;
+    float: left;
+    top: 250px;
+    left:250px;
+    font-family: serif;
+    font-size: 1.5em;
+    color: black;
+    width: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
